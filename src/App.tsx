@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Pane, Text } from "evergreen-ui";
+import Header from "./Header";
+import Prompt from "./Prompt";
 
 const App = () => {
   return (
     <div className="App">
-      <Pane height={120} alignItems="center" justifyContent="center">
-        <Text>Header</Text>
-      </Pane>
-      <div>Prompt</div>
+      <Header />
+      <Prompt />
       <div>Clue</div>
       <div>Submit</div>
     </div>
