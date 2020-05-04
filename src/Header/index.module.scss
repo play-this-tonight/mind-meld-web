@@ -1,0 +1,14 @@
+@import "styles/colors";
+
+.header {
+  color: $light-purple;
+  background-color: $dark-purple;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
